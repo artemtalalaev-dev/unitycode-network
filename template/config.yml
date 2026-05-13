@@ -1,1 +1,9 @@
-
+# Конфигурация личного узла UnityCode
+node:
+  alias: "Узел"
+  public: true
+  llm:
+    provider: "ollama"  # или grok, gemini, local
+    model: "llama3.1"
+  traktat_path: "./traktat/"
+  signals_path: "./signals/"
